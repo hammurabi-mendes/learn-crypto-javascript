@@ -1,6 +1,6 @@
 # Learning Cryptography with Javascript
 
-This repository contains meant-to-be-simple Javascript implementations of cryptographic protocols to help those learning cryptography. I am sharing this material because I think it would be helpful for learners. Includes simplified Javascript implementations of threshold signatures, secret sharing, KZG polynomial commitments, blind signatures, ring signatures, merkle trees, poseidon helpers (without the circomlib dependency), verifiable random functions, and oblivious transfer among other things. **DO NOT USE IT IN PRODUCTION**: this code is meant for learners, and you should not "roll your own crypto": please find audited and well-maintained libraries suitable for production instead.
+Meant-for-learners Javascript implementations of threshold signatures, secret sharing, KZG polynomial commitments, blind signatures, ring signatures, merkle trees, poseidon helpers (without the circomlib dependency), verifiable random functions, and oblivious transfer among other things. **DO NOT USE IT IN PRODUCTION**: this code is meant for learners. The idea is to have **clean, well-organized code** for learning. Do not "roll your own crypto" in production: please find audited and well-maintained libraries suitable in that case.
 
 **NOTE:** I also published a meant-to-be-learned ZK-rollup in Javascript in "[A Simple ZK-rollup](https://github.com/hammurabi-mendes/zk-rollup)".
 
