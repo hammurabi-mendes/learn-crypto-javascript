@@ -2,6 +2,8 @@
 
 This repository contains meant-to-be-simple Javascript implementations of cryptographic protocols to help those learning cryptography. I am sharing this material because I think it would be helpful for learners. Includes simplified Javascript implementations of threshold signatures, secret sharing, KZG polynomial commitments, blind signatures, ring signatures, merkle trees, poseidon helpers (without the circomlib dependency), verifiable random functions, and oblivious transfer among other things. **DO NOT USE IT IN PRODUCTION**: this code is meant for learners, and you should not "roll your own crypto": please find audited and well-maintained libraries suitable for production instead.
 
+**NOTE:** I also published a meant-to-be-learned ZK-rollup in Javascript in "[A Simple ZK-rollup](https://github.com/hammurabi-mendes/zk-rollup)".
+
 ## Support
 - If you think this repository is useful, please consider supporting it here:
 	- Bitcoin: ```bc1qwjunpsdhtsmcwt7m8enpwepgc6yngk82apeus3```
@@ -23,8 +25,10 @@ This repository contains meant-to-be-simple Javascript implementations of crypto
 
 You are ready to go through the ```index.mjs``` file. Examine the test functions in order, each time navigating to the files where the implementation is found. We start with the basics and we find ourselves quickly in the non-basics.
 
-### Basics
+### (If you need background information...)
+If you are starting from nothing, I suggest reading either [this](https://www.manning.com/books/real-world-cryptography) book or [this](https://nostarch.com/seriouscrypto). If you need background in elliptic-curve cryptography, there are various resources but maybe you can start [here](https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/). You can learn about the BLS12-381 curve [here](https://hackmd.io/@benjaminion/bls12-381) and about the BN254 [here](https://hackmd.io/@jpw/bn254). Maybe you can learn about BLS signatures [here](https://medium.com/cryptoadvance/bls-signatures-better-than-schnorr-5a7fe30ea716) and then signature aggregation [here](https://crypto.stanford.edu/~dabo/pubs/papers/BLSmultisig.html). A good resource for Shamir's secret sharing and threshold signatures is [here](https://github.com/dashpay/dips/blob/master/dip-0006/bls_m-of-n_threshold_scheme_and_dkg.md). The Monero [book](https://web.getmonero.org/library/Zero-to-Monero-2-0-0.pdf) is well-written, and reading chapters 1-3 (up to Sec. 3.3, inclusive) should be helpful. A wonderful resource for KZG polynomial commitments is [here](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html). There are many other resources, these are just examples. This repository does not suggest or require any of these resources specifically, but they might be helpful if you are in search for background information.
 
+### The Basics
 - PRNG and hashing in Node.js Crypto API
 - (```symmetric.mjs```) Symmetric cryptography using Node.js Crypto API
 	* encrypt/decrypt
