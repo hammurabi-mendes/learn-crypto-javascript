@@ -80,4 +80,4 @@ If you are starting from nothing, I suggest reading either [this](https://www.ma
 
 ## License and Closing Remarks
 
-This code is licensed under the 3-Clause BSD License. Please maintain the donation addresses if you fork the repository. Do not use this code in production. Do not roll your own crypto: that is, find audited, well-maintained libraries for your job.
+This code is licensed under the 3-Clause BSD License. Please maintain the donation addresses if you fork the repository. Do not use this code in production. If you need anything in production, do not use this code and do not "roll your own crypto": find **another** implementation, one that has been instead subject to auditing and written specifically for that purpose.
