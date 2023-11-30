@@ -50,7 +50,7 @@ If you are starting from nothing, I suggest reading either [this](https://www.ma
 - (```asymmetric-noble.mjs```) Threshold Signatures
 - (```poly-commitment.mjs```) KZG polynomial commitment scheme
 - (```commitment.mjs```) HMACs and Pedersen commitments
-	Includes checking homomorphic properties of Pedersen commitments
+	- Includes checking homomorphic properties of Pedersen commitments
 - (```openssl directory```) OpenSSL certificates and CLI tool
 	- Scripts documenting commands to create keypairs, certificates both in Ed25519 and secp256k1
 	- Two certificates have been created and are manipulated using Javascript (see below)
@@ -59,7 +59,7 @@ If you are starting from nothing, I suggest reading either [this](https://www.ma
 	  * Including interoperation: load the certificate in one library, and use it in the other
 	- If you want to regenerate the certificates, just run ```commands_*.sh``` in the ```openssl``` directory.
 - (```merkle_tree.mjs```) Merkle Trees
-	A sparse Merkle Tree with extra convenient functions that are used in the ZK-Rollup project
+	- A sparse Merkle Tree with extra convenient functions that are used in the ZK-Rollup project
 - (```poseidon directory```) Poseidon hashing
 	- Generated constants using SAGE (see README.txt inside the poseidon directory)
 	  * Stored into a Javascript file
